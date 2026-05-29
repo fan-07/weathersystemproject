@@ -91,5 +91,7 @@ weatherEvent.OnServerEvent:Connect(function(player, weatherType)
         setFog()
     elseif weatherType == "Snow" then
         setSnow()
+    elseif weatherType == "Clear" then 
+        clearWeather()
     end
 end)
