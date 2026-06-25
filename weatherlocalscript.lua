@@ -7,6 +7,7 @@ local player = Players.LocalPlayer
 local gui = player.PlayerGui:WaitForChild("ScreenGui")
 local frame = gui:WaitForChild("MainFrame")
 
+--the wathers
 local rainBtn = frame:WaitForChild("RainButton")
 local fogBtn  = frame:WaitForChild("FogButton")
 local snowBtn = frame:WaitForChild("SnowButton")
